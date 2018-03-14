@@ -6,3 +6,96 @@
  Version:      1.0.0
  Text Domain:  simplent-child
 */
+
+@font-face {
+    font-family: 'Input Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/input-sans/Input-Regular_(InputSans-Regular).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/input-sans/Input-Italic_(InputSans-Italic).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/input-sans/Input-Bold_(InputSans-Bold).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/input-sans/Input-BoldItalic_(InputSans-BoldItalic).ttf');
+}
+
+@font-face {
+    font-family: 'Input Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/input-serif/Input-Regular_(InputSerif-Regular).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/input-serif/Input-Italic_(InputSerif-Italic).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/input-serif/Input-Bold_(InputSerif-Bold).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Serif';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/input-serif/Input-BoldItalic_(InputSerif-BoldItalic).ttf');
+}
+
+@font-face {
+    font-family: 'Input Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/input-mono/Input-Regular_(InputMono-Regular).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url('fonts/input-mono/Input-Italic_(InputMono-Italic).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/input-mono/Input-Bold_(InputMono-Bold).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url('fonts/input-mono/Input-BoldItalic_(InputMono-BoldItalic).ttf');
+}
