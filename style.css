@@ -116,10 +116,6 @@ input[type="submit"][disabled]:focus {
     font-family: 'Input Serif', 'Times New Roman', serif;
 }
 
-textarea {
-    font-family: 'Input Serif', 'Times New Roman', serif;
-}
-
 .post-password-form label {
     font-family: 'Input Serif', 'Times New Romand', serif;
 }
@@ -221,6 +217,14 @@ textarea {
 }
 
 .main-navigation, .menu-toggle {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type="date"], input[type="time"], input[type="datetime-local"], input[type="week"], input[type="month"], input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea {
     font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
 }
 
