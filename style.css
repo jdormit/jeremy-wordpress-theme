@@ -99,3 +99,127 @@
     font-weight: 700;
     src: url('fonts/input-mono/Input-BoldItalic_(InputMono-BoldItalic).ttf');
 }
+
+body, button, input, select, textarea {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+code, kbd, pre, samp, tt {
+    font-family: 'Input Mono', Inconsolata, monospace;
+}
+
+input[type="submit"][disabled]:focus {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+textarea {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.post-password-form label {
+    font-family: 'Input Serif', 'Times New Romand', serif;
+}
+
+.site-title {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site-description {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-toggle {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.sticky-post {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-links {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.single .entry-footer {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-title {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.entry-author-info .author-title {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site .skip-link {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.post-navigation {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.post-navigation .post-title {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pagination {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.image-navigation, .comment-navigation {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.comments-title, .comment-reply-title {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.comment-metadata, .pingback .edit-link {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.comment-reply-link {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.comment-form label {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no-comments {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.form-allowed-tags code {
+    font-family: 'Input Mono', Inconsolata, monospace;
+}
+
+.required {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.widget_recent_entries .post-date {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.widget_rss cite {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.tagcloud a {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.site-footer {
+    font-family: 'Input Serif', 'Times New Roman', serif;
+}
+
+.main-navigation, .menu-toggle {
+    font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
+}
