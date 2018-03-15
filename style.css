@@ -223,3 +223,15 @@ textarea {
 .main-navigation, .menu-toggle {
     font-family: 'Input Sans', 'Helvetica Neue', sans-serif;
 }
+
+.content-area .search-submit:before {
+    content: "";
+}
+
+.content-area .search-submit {
+    color: white;
+}
+
+.search-form > label {
+    margin-bottom: 0px;
+}
