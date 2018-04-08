@@ -239,3 +239,9 @@ input[type="date"], input[type="time"], input[type="datetime-local"], input[type
 .search-form > label {
     margin-bottom: 0px;
 }
+
+@media screen and (max-width: 600px) {
+    img {
+	min-width: 100%;
+    }
+}
