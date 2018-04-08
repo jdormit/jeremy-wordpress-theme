@@ -241,7 +241,7 @@ input[type="date"], input[type="time"], input[type="datetime-local"], input[type
 }
 
 @media screen and (max-width: 600px) {
-    img {
+    img.wp-image-52 {
 	min-width: 100%;
     }
 }
