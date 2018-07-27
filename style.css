@@ -840,9 +840,21 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.site-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: auto;
+}
+
 .content-area {
-    max-width: 740px;
-    margin: auto;
+    grid-column: 3 / 8;
+    max-width: 100%;
+}
+
+.widget-area {
+    grid-column: 9 / 11;
+    max-width: 100%;
 }
 /*--------------------------------------------------------------
 ## Posts and pages
