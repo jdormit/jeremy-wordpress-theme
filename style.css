@@ -896,7 +896,9 @@ Site header
 }
 
 .main-navigation {
-    grid-column: 8 / 12;
+    display: grid;
+    grid-column: 6 / 12;
+    justify-items: end;
 }
 
 .main-navigation li {
