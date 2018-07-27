@@ -981,6 +981,46 @@ Site footer
     text-align: center;
 }
 
+/*
+Mobile
+*/
+@media screen and (max-width: 720px) {
+    html {
+	overflow-x: hidden;
+    }
+
+    .content-area {
+	grid-column: 2 / 12;
+    }
+
+    .content-area.no-sidebar {
+	grid-column: 2 / 12;
+    }
+
+    .widget-area {
+	grid-column: 2 / 12;
+    }
+
+    .search-form {
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+    }
+
+    .search-form input {
+	width: 100%;
+    }
+
+    .search-field {
+	grid-column: 1;
+	grid-row: 1 / 2;
+    }
+
+    .search-submit {
+	grid-column: 1;
+	grid-row: 2 / 3;
+    }
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
