@@ -962,7 +962,7 @@ Site content
 }
 
 .content-area.no-sidebar {
-    grid-column: 4 / 10;
+    grid-column: 3 / 11;
 }
 
 .widget-area {
