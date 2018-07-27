@@ -701,6 +701,7 @@ a:hover, a:active {
 	top: 100%;
 	left: -999em;
 	z-index: 99999;
+	background-color: white;
 }
 
 .main-navigation ul ul ul {
@@ -896,6 +897,15 @@ Site header
 
 .main-navigation {
     grid-column: 8 / 12;
+}
+
+.main-navigation li {
+    margin-left: 48px;
+}
+
+.main-navigation ul ul li {
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 /*
