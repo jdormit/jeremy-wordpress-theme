@@ -879,6 +879,28 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+/*
+Site header
+*/
+.site-header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.site-branding {
+    grid-column: 2 / 6;
+}
+
+.main-navigation {
+    grid-column: 8 / 12;
+}
+
+/*
+Site content
+*/
 .site-content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -895,6 +917,7 @@ a:hover, a:active {
     grid-column: 9 / 11;
     max-width: 100%;
 }
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
