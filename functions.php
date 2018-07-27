@@ -120,6 +120,7 @@ add_action( 'widgets_init', 'jeremy_wordpress_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function jeremy_wordpress_theme_scripts() {
+    wp_enqueue_style( 'fanwood-text-font', get_template_directory_uri() . '/fonts/fanwood-text/stylesheet.css' );
 	wp_enqueue_style( 'jeremy-wordpress-theme-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'jeremy-wordpress-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
