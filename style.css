@@ -523,6 +523,10 @@ html {
 	box-sizing: inherit;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
 	background: #fff;
 	/* Fallback for when there is no custom background color defined. */
@@ -888,9 +892,30 @@ a:hover, a:active {
 	max-width: 100%;
 }
 
+.search-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.search-field {
+    grid-column: 1 / 4;
+}
+
+.search-submit {
+    grid-column: 4 / 5;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.site {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /*
 Site header
 */
@@ -899,7 +924,7 @@ Site header
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
     grid-gap: 1rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .site-branding {
@@ -941,6 +966,17 @@ Site content
     max-width: 100%;
 }
 
+/* 
+Site footer
+*/
+.site-footer {
+    padding-bottom: 1rem;
+}
+
+.site-info {
+    text-align: center;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -965,6 +1001,32 @@ Site content
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
+}
+
+.entry-footer {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.cat-links {
+    grid-column: 1 / 9;
+    grid-row: 1 / 2;
+}
+
+.edit-link {
+    grid-column: 9 / 10;
+    grid-row: 1 / 2;
+    justify-self: end;
+}
+
+.tags-links {
+    grid-column: 1 / 10;
+}
+
+.comments-link {
+    grid-column: 1 / 10;
 }
 
 /*--------------------------------------------------------------
