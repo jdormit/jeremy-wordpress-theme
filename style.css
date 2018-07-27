@@ -961,6 +961,10 @@ Site content
     max-width: 100%;
 }
 
+.content-area.no-sidebar {
+    grid-column: 4 / 10;
+}
+
 .widget-area {
     grid-column: 9 / 11;
     max-width: 100%;
