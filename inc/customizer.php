@@ -25,6 +25,17 @@ function jeremy_wordpress_theme_customize_register( $wp_customize ) {
 			'render_callback' => 'jeremy_wordpress_theme_customize_partial_blogdescription',
 		) );
 	}
+
+    $wp_customize->add_setting( 'copyright_holder', array(
+        'default' => '',
+        'sanitize_callback' => 'sanitize_text_field'
+    ) );
+
+    $wp_customize->add_control( 'copyright_holder_control', array(
+        'label' => __( 'Copyright Holder', 'jeremy-wordpress-theme' ),
+        'section' => 'title_tagline',
+        'settings' => 'copyright_holder',
+    ) );
 }
 add_action( 'customize_register', 'jeremy_wordpress_theme_customize_register' );
 

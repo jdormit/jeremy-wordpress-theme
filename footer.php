@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-            <span class="site-copyright">&#169; Jeremy Dormitzer <?php echo date('Y');?></span>
+            <span class="site-copyright">&#169; <?php echo get_theme_mod( 'copyright_holder' );?> <?php echo date('Y');?></span>
         </div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
