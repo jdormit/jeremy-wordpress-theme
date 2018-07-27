@@ -993,6 +993,19 @@ Site footer
 }
 
 /*
+Comments
+*/
+.comment-list {
+    margin: 0;
+    padding-left: 3em;
+}
+
+.comment-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 0.5em;
+}
+
+/*
 Mobile
 */
 @media screen and (max-width: 720px) {
@@ -1008,8 +1021,16 @@ Mobile
 	grid-column: 2 / 12;
     }
 
+    .comment-list {
+	padding-left: 1em;
+    }
+
     .widget-area {
 	grid-column: 2 / 12;
+    }
+
+    .comment-form input {
+	width: 100%;
     }
 
     .search-form {
