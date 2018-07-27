@@ -457,7 +457,46 @@ big {
 /*
 Font sizes
 */
-// TODO
+
+html {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 67px;
+}
+
+.widget-area {
+    font-size: 16px;
+}
+
+.widget-area h4 {
+    font-size: 21px;
+}
+
+.widget-area h3 {
+    font-size: 28px;
+}
+
+.widget-area h2 {
+    font-size: 37px;
+}
+
+.widget-area h1 {
+    font-size: 50px;
+}
 
 /*--------------------------------------------------------------
 # Elements
