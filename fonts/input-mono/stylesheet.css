@@ -1,13 +1,30 @@
 @font-face {
     font-family: 'Input Mono';
-    src: url('FanwoodText-Regular.ttf') format('truetype');
-    font-weight: normal;
     font-style: normal;
+    font-weight: 400;
+    src: url('Input-Regular_(InputMono-Regular).ttf');
+
 }
 
 @font-face {
-    font-family: 'Fanwood Text';
-    src: url('FanwoodText-Italic.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Input Mono';
     font-style: italic;
+    font-weight: 400;
+    src: url('Input-Italic_(InputMono-Italic).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('Input-Bold_(InputMono-Bold).ttf');
+
+}
+
+@font-face {
+    font-family: 'Input Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url('Input-BoldItalic_(InputMono-BoldItalic).ttf');
 }
