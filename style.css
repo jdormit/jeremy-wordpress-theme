@@ -425,8 +425,7 @@ address {
 pre {
 	background: #eee;
 	font-family: "Input Mono", "Courier 10 Pitch", Courier, monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 16px;
 	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -434,10 +433,13 @@ pre {
 	padding: 1.6em;
 }
 
+pre code {
+    font-size: 16px;
+}
+
 code, kbd, tt, var {
 	font-family: "Input Mono", Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 0.8375rem;
 }
 
 samp {
