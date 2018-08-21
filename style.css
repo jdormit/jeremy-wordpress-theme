@@ -1003,7 +1003,26 @@ Comments
 */
 .comment-list {
     margin: 0;
-    padding-left: 3em;
+    padding-left: 0.5em;
+    list-style-type: none;
+}
+
+.comment-body {
+    margin-top: 2em;
+}
+
+.comment-author .fn {
+    margin-left: 0.5em;
+}
+
+.comment-author img.avatar {
+    float: left;
+}
+
+.comment-metadata {
+    font-size: 16px;
+    clear: both;
+    margin-top: 0.5em;
 }
 
 .comment-form input[type="checkbox"] {
