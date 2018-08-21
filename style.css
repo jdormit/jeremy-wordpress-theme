@@ -1025,6 +1025,10 @@ Comments
     margin-top: 0.5em;
 }
 
+.comment-edit-link {
+    margin-left: 0.5em;
+}
+
 .comment-form input[type="checkbox"] {
     width: auto;
     margin-right: 0.5em;
