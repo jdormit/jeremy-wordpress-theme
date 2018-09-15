@@ -38,6 +38,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Comments
 # Infinite scroll
 # Media
+        ## Images
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
@@ -1182,6 +1183,14 @@ object {
 /* Make sure logo link wraps around logo image. */
 .custom-logo-link {
 	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+## Images
+--------------------------------------------------------------*/
+
+.wp-post-image {
+    margin-top: 1.5em;
 }
 
 /*--------------------------------------------------------------
