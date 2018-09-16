@@ -417,6 +417,9 @@ dfn, cite, em, i {
 
 blockquote {
 	margin: 0 1.5em;
+	border-left: 10px solid #ccc;
+	background: #f9f9f9;
+	padding: 0.1em 0.5em;
 }
 
 address {
