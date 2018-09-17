@@ -166,3 +166,49 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Rich-text WYSIWYG comment editor via https://sumtips.com/how-to/add-rich-text-editor-wordpress-comment-form-without-plugin:
+add_filter( 'comment_form_defaults', 'rich_text_comment_form' );
+function rich_text_comment_form( $args ) {
+    ob_start();
+    wp_editor( '', 'comment', array(
+        'media_buttons' => true, // show insert/upload button(s) to users with permission
+        'textarea_rows' => '10', // re-size text area
+        'dfw' => false, // replace the default full screen with DFW (WordPress 3.4+)
+        'tinymce' => array(
+            'theme_advanced_buttons1' => 'bold,italic,underline,strikethrough,bullist,numlist,code,blockquote,link,unlink,outdent,indent,|,undo,redo,fullscreen',
+        ),
+        'quicktags' => array(
+            'buttons' => 'strong,em,link,block,del,ins,img,ul,ol,li,code,close'
+        )
+    ) );
+    $args['comment_field'] = ob_get_clean();
+    return $args;
+}
+
+add_action( 'wp_enqueue_scripts', 'jeremy_theme__scripts' );
+function jeremy_theme__scripts() {
+	wp_enqueue_script('jquery');
+}
+add_filter( 'comment_reply_link', 'jeremy_theme__comment_reply_link' );
+function jeremy_theme__comment_reply_link($link) {
+	return str_replace( 'onclick=', 'data-onclick=', $link );
+}
+add_action( 'wp_head', 'jeremy_theme__wp_head' );
+function jeremy_theme__wp_head() {
+?>
+<script type="text/javascript">
+	jQuery(function($){
+		$('.comment-reply-link').click(function(e){
+			e.preventDefault();
+			var args = $(this).data('onclick');
+			args = args.replace(/.*(|)/gi, '').replace(/"|s+/g, '');
+			args = args.split(',');
+			tinymce.EditorManager.execCommand('mceRemoveControl', true, 'comment');
+			addComment.moveForm.apply( addComment, args );
+			tinymce.EditorManager.execCommand('mceAddControl', true, 'comment');
+		});
+	});
+</script>
+<?php
+}
+?>
