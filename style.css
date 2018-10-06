@@ -1019,6 +1019,12 @@ Comments
     list-style-type: none;
 }
 
+.comment-list li > ul,
+.comment-list li > ol {
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
 .comment-body {
     margin-top: 2em;
 }
