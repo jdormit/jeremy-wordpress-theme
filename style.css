@@ -489,7 +489,8 @@ big {
 Fonts
 */
 body {
-    font-family: -apple-system, 
+    font-family: system-ui,
+		 -apple-system,
 		 BlinkMacSystemFont, 
 		 "Segoe UI", 
 		 Roboto, 
