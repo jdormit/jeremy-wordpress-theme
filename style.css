@@ -427,14 +427,21 @@ address {
 }
 
 pre {
-	background: #eee;
-	font-family: "Input Mono", "Courier 10 Pitch", Courier, monospace;
-	font-size: 16px;
-	line-height: 1.6;
-	margin-bottom: 1.6em;
-	max-width: 100%;
-	overflow: auto;
-	padding: 1.6em;
+    background: #eee;
+    font-family:
+	SFMono-Regular,
+	Menlo,
+	Monaco,
+	Consolas,
+	"Liberation Mono",
+	"Courier New",
+	monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
 }
 
 pre code {
@@ -442,12 +449,26 @@ pre code {
 }
 
 code, kbd, tt, var {
-	font-family: "Input Mono", Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
-	font-size: 0.8375rem;
+    font-family:
+	SFMono-Regular,
+	Menlo,
+	Monaco,
+	Consolas,
+	"Liberation Mono",
+	"Courier New",
+	monospace;
+    font-size: 0.8375rem;
 }
 
 samp {
-    font-family: "Input Mono", Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-family:
+	SFMono-Regular,
+	Menlo,
+	Monaco,
+	Consolas,
+	"Liberation Mono",
+	"Courier New",
+	monospace;
 }
 
 abbr, acronym {
@@ -468,7 +489,15 @@ big {
 Fonts
 */
 body {
-    font-family: "Fanwood Text", "Georgia", "Times New Roman", "Times", serif;
+    font-family: -apple-system, 
+		 BlinkMacSystemFont, 
+		 "Segoe UI", 
+		 Roboto, 
+		 Oxygen-Sans, 
+		 Ubuntu, 
+		 Cantarell, 
+		 "Helvetica Neue", 
+		 sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
