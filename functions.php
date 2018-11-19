@@ -120,8 +120,6 @@ add_action( 'widgets_init', 'jeremy_wordpress_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function jeremy_wordpress_theme_scripts() {
-    wp_enqueue_style( 'fanwood-text-font', get_template_directory_uri() . '/fonts/fanwood-text/stylesheet.css' );
-    wp_enqueue_style( 'input-mono-font', get_template_directory_uri() . '/fonts/input-mono/stylesheet.css' );
     wp_enqueue_style( 'highlight-style', get_template_directory_uri() . '/css/highlight-default.css' );
 	wp_enqueue_style( 'jeremy-wordpress-theme-style', get_stylesheet_uri() );
 
