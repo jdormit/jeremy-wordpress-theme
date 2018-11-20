@@ -489,16 +489,24 @@ big {
 Fonts
 */
 body {
-    font-family: system-ui,
-		 -apple-system,
-		 BlinkMacSystemFont, 
-		 "Segoe UI", 
-		 Roboto, 
-		 Oxygen-Sans, 
-		 Ubuntu, 
-		 Cantarell, 
-		 "Helvetica Neue", 
-		 sans-serif;
+    font-family:
+	"Palatino Linotype",
+	Palatino,
+	Palladio,
+	"URW Palladio L",
+	"Book Antiqua",
+	Baskerville,
+	"Bookman Old Style",
+	"Bitstream Charter",
+	"Nimbus Roman No9 L",
+	Garamond,
+	"Apple Garamond",
+	"ITC Garamond Narrow",
+	"New Century Schoolbook",
+	"Century Schoolbook",
+	"Century Schoolbook L",
+	Georgia,
+	serif;
 }
 
 h1, h2, h3, h4, h5 {
