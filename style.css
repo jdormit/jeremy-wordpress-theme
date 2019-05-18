@@ -990,7 +990,7 @@ Site content
 }
 
 .content-area {
-    grid-column: 3 / 8;
+    grid-column: 5 / 9;
     max-width: 100%;
 }
 
