@@ -120,6 +120,8 @@ add_action( 'widgets_init', 'jeremy_wordpress_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function jeremy_wordpress_theme_scripts() {
+    wp_enqueue_style( 'charter-font', get_template_directory_uri() . '/fonts/charter/stylesheet.css' );
+    wp_enqueue_style( 'fira-sans-font', get_template_directory_uri() . '/fonts/fira-sans/fira-sans.css' );
     wp_enqueue_style( 'highlight-style', get_template_directory_uri() . '/css/highlight-default.css' );
 	wp_enqueue_style( 'jeremy-wordpress-theme-style', get_stylesheet_uri() );
 
