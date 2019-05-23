@@ -519,14 +519,11 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-size: 21px;
+    hyphens: none;
 }
 
 .content-area {
     word-wrap: break-word;
-}
-
-.entry-title {
-    hyphens: auto;
 }
 
 /*--------------------------------------------------------------
@@ -990,8 +987,9 @@ Site content
 }
 
 .content-area {
-    grid-column: 5 / 9;
+    grid-column: 5 / 10;
     max-width: 100%;
+    hyphens: auto;
 }
 
 .content-area.no-sidebar {
