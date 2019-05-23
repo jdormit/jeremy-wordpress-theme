@@ -120,14 +120,21 @@ add_action( 'widgets_init', 'jeremy_wordpress_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function jeremy_wordpress_theme_scripts() {
-    wp_enqueue_style( 'charter-font', get_template_directory_uri() . '/fonts/charter/stylesheet.css' );
+    wp_enqueue_style( 'century-supra-font', get_template_directory_uri() . '/fonts/century-supra/stylesheet.css' );
     wp_enqueue_style( 'fira-sans-font', get_template_directory_uri() . '/fonts/fira-sans/fira-sans.css' );
+    wp_enqueue_style( 'triplicate-font', get_template_directory_uri() . '/fonts/triplicate/stylesheet.css' );
     wp_enqueue_style( 'highlight-style', get_template_directory_uri() . '/css/highlight-default.css' );
 	wp_enqueue_style( 'jeremy-wordpress-theme-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'jeremy-wordpress-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'jeremy-wordpress-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 
+        'jeremy-wordpress-theme-skip-link-focus-fix', 
+        get_template_directory_uri() . '/js/skip-link-focus-fix.js', 
+        array(), 
+        '20151215', 
+        true 
+    );
 
     wp_enqueue_script( 'highlight-js', get_template_directory_uri() . '/js/highlight.pack.js', array(), false, true );
 

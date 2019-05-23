@@ -429,6 +429,7 @@ address {
 pre {
     background: #eee;
     font-family:
+	'Triplicate Code',
 	SFMono-Regular,
 	Menlo,
 	Monaco,
@@ -450,6 +451,7 @@ pre code {
 
 code, kbd, tt, var {
     font-family:
+	'Triplicate Code',
 	SFMono-Regular,
 	Menlo,
 	Monaco,
@@ -462,6 +464,7 @@ code, kbd, tt, var {
 
 samp {
     font-family:
+	'Triplicate Code',
 	SFMono-Regular,
 	Menlo,
 	Monaco,
@@ -490,7 +493,7 @@ Fonts
 */
 body {
     font-family:
-	charterregular,
+	'Century Supra',
 	"Palatino Linotype",
 	Palatino,
 	Palladio,
